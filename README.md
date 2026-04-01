@@ -6,7 +6,25 @@ This project detects human emotions in real-time using a webcam.
 A Convolutional Neural Network (CNN) model is trained on facial expression images to classify emotions like **angry, happy, sad, fear, surprise, neutral, and disgust**.
 
 ---
+## 📥 Dataset
+This project utilizes the **FER-2013 (Facial Expression Recognition)** dataset, one of the most widely used datasets for emotion AI.
 
+* **Format:** Grayscale facial images (48x48 pixels).
+* **Total Classes:** 7 emotion categories.
+    * 0: Angry
+    * 1: Disgust
+    * 2: Fear
+    * 3: Happy
+    * 4: Sad
+    * 5: Surprise
+    * 6: Neutral
+* **Data Split:** Images are organized into `train` and `test` directories.
+
+🔗 **Download Link:** [Kaggle - FER-2013 Dataset](https://www.kaggle.com/datasets/msambare/fer2013)
+
+> **Note:** A Kaggle account is required to download the files. Once downloaded, extract the ZIP file into the `data/` folder.
+
+---
 ## ⚙️ Environment Setup
 
 * **Operating System:** Windows 10 / 11
